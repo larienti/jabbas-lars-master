@@ -1,0 +1,132 @@
+body {
+    font-family: calibri;
+    background-color: rgb(250, 250, 250);
+}
+
+.jumbotron {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(15, 15, 104);
+    border: 10px black;
+    border-style: solid;
+    width: 100%;
+    font-size: 4pt;
+}
+
+#header {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/154/986/original/grunge-danger-caution-background-vector.jpg");
+    background-size: contain;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+h3 {
+    text-align: center;
+}
+
+#hiking {
+    background-image: url("https://wallpaperaccess.com/full/1638233.jpg");
+    background-size: cover;
+}
+
+#movie {
+    background-image: url(" https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2BF5GCrJ73ZB5dyeDm3Pz4rlnDH5WyCQCNerbjiZJtoDEpZP0&usqp=CAU");
+    background-size: cover;
+}
+
+.panel {
+    text-align: center;
+    border: none;
+}
+
+.panel-title {
+    background-color: rgb(255, 178, 34);
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 5px
+}
+
+.panel-body {
+    background-color: rgb(235, 235, 235);
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
+}
+
+#filter-title {
+    font-size: 20px;
+    background-color: rgb(137, 192, 255);
+}
+
+#movie-charts {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#table {
+    text-align: center;
+}
+
+.well {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    border: .5pt solid black;
+    height: 100%;
+}
+
+#form {
+    text-align: center;
+}
+
+#enter-zip {
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+.navbar {
+    margin: 0%;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 2pt solid rgb(212, 212, 205);
+    border-bottom: 2pt solid rgb(212, 212, 205);
+    padding: 0%;
+}
+
+.nav, .navbar-nav {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: white;
+}
+
+#hike-memo {
+    text-align: center;
+    border: 1pt solid black;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    background: white;
+    box-shadow: grey;
+}  
+
+#memo {
+    padding-bottom: 1%;
+    
+}
+
+hr {
+    color: grey;
+}
+
+a {
+    color: rgb(239, 244, 255);
+}

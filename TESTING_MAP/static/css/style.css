@@ -1,0 +1,57 @@
+.jumbotron {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(15, 15, 104);
+    border: 10px black;
+    border-style: solid;
+    width: 100%
+}
+
+#hiking {
+    background-image: url("https://wallpaperaccess.com/full/1638233.jpg");
+    background-size: cover;
+    font-family: fantasy;
+}
+
+#map
+{
+    width: 100px;
+    height:100px;
+    min-height: 100%;
+    min-width: 100%;
+    display: block;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+#map-holder{
+    height: 100%;
+}
+
+.fill
+{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container{
+    max-width:60em;
+    padding: 0.2em;
+}
+
+.navbar {
+    margin: 0%;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 2pt solid rgb(212, 212, 205);
+    padding: 0%;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: black;
+}

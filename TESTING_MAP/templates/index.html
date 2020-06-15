@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hike</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<link rel="stylesheet" href="d3Style.css">-->
+
+      <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">--> 
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><strong>QuarantineSurvivalKit</strong></a>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="movie.html">Movies</a></li>
+            <li><a href="hike.html">Hiking</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron text-center" id="hiking">
+            <h1>Let's Go on a Hike</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="article">
+                    <h3>Someone is feeling adventurous today – we admire your bravery. 
+                        Let us help find a trail near you.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <form id = "form">
+                    <div class = "form-group">
+                        <label for = "hike-form">Enter Your Zip Code</label>
+                        <input class = "form-control" id ="hike-form-input" name="hike-form" type="text">
+                    </div>
+                    <button id="button" type ="button" class ="btn btn-default">Enter</button><hr>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="map-holder">
+        <div class="container fill" id="map-try">
+            <!--<div id="map"></div>-->
+        </div>
+    </div>
+    
+
+    <!-- D3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+    <!-- API Key -->
+    <script type="text/javascript" src="static/config.js"></script>
+
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/hike.js"></script>
+    <!--<script type="text/javascript" src="{{ url_for('static', filename='hike.js') }}"></script>--> 
+
+</body>
+
+</html>
